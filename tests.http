@@ -1,0 +1,15 @@
+POST http://localhost:8080/books
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "book1"
+}
+
+###
+GET http://localhost:8080/books
+
+###
+GET http://localhost:8080/books/100
+
+
